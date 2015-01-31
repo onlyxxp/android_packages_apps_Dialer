@@ -204,7 +204,7 @@ public class PhoneCallDetailsHelper {
                 numberFormattedLabel = details.geocode;
             } else {
                 numberFormattedLabel = Phone.getTypeLabel(mResources, details.numberType,
-                        details.numberLabel);
+                        details.numberLabel) + "  " + details.geocode;
             }
         }
 
